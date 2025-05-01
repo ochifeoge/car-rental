@@ -2,10 +2,28 @@ import { FaLocationPin } from "react-icons/fa6";
 import { logo } from "../components/details";
 import { MdPhoneInTalk } from "react-icons/md";
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
+import { useGSAP } from "@gsap/react";
+import { gsap } from "gsap";
+import { useRef } from "react";
 
 const Footer = () => {
+  const footerRef = useRef<HTMLElement>(null);
+
+  useGSAP(() => {
+    gsap.from(footerRef.current, {
+      opacity: 0,
+      y: 50,
+      duration: 1.2,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: footerRef.current,
+        start: "top bottom",
+      },
+    });
+  }, []);
+
   return (
-    <footer className="bg-secondary py-6 text-primary">
+    <footer ref={footerRef} className="bg-secondary py-6 text-primary">
       <div className="container">
         <div className="py-4 border-b border-b-primary">
           <img src={logo} alt="Logo" />
