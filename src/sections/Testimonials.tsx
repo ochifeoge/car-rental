@@ -26,7 +26,7 @@ const Testimonials = () => {
   };
 
   const contentRef = useRef<HTMLDivElement>(null);
-  const textRef = useRef<HTMLHeadingElement[]>([]);
+  const textRef = useRef<(HTMLHeadingElement | null)[]>([]);
 
   useGSAP(
     () => {
@@ -101,7 +101,11 @@ const Testimonials = () => {
         className="bg-secondary flex h-[50dvh] md:h-[30vh] items-center justify-center p-5 md:p-10 ">
         <div className="max-w-[1075px] flex flex-col md:flex-row items-center justify-between text-primary">
           <div className="flex items-start gap-4 p-2 pb-8 md:p-8 border-b md:border-b-0 border-b-primary">
-            <h2 ref={(el) => (textRef.current[0] = el)} className="text-3xl">
+            <h2
+              ref={(el) => {
+                textRef.current[0] = el;
+              }}
+              className="text-3xl">
               15+
             </h2>
             <p>
@@ -110,7 +114,11 @@ const Testimonials = () => {
             </p>
           </div>
           <div className="flex items-start gap-4 p-2 pt-8 md:p-8  min-md:border-l border-l-primary ">
-            <h2 ref={(el) => (textRef.current[1] = el)} className="text-3xl">
+            <h2
+              ref={(el) => {
+                textRef.current[1] = el;
+              }}
+              className="text-3xl">
               10k
             </h2>
             <p>

@@ -115,25 +115,25 @@ export const carNames = [
 export const carDetails = [
   [
     {
-      src: baseUrl + "/car-asset/nexaro-electra.png",
+      src: baseUrl + "/assets/show-1.jpg",
       model: "Nexaro electra",
       price: "35700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/velocevo.png",
+      src: baseUrl + "/assets/show-2.jpg",
       model: "Velocevo Stellaris",
       price: "135700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/nexaro.png",
+      src: baseUrl + "/assets/show-3.jpg",
       model: "Nexaro CG6",
       price: "82700",
       msap: "43.2",
     },
     {
-      src: baseUrl + "/car-asset/Arcticon.png",
+      src: baseUrl + "/assets/show-4.jpg",
       model: "Arcticon Aurora",
       price: "5700",
       msap: "63.2",
@@ -141,25 +141,25 @@ export const carDetails = [
   ],
   [
     {
-      src: baseUrl + "/car-asset/nexaro.png",
+      src: baseUrl + "/assets/show-2.jpg",
       model: "Nexaro electra",
       price: "35700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/velocevo.png",
+      src: baseUrl + "/assets/show-1.jpg",
       model: "Velocevo Stellaris",
       price: "135700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/Arcticon.png",
+      src: baseUrl + "/assets/show-4.jpg",
       model: "Nexaro CG6",
       price: "82700",
       msap: "43.2",
     },
     {
-      src: baseUrl + "/car-asset/nexaro-electra.png",
+      src: baseUrl + "/assets/show-3.jpg",
       model: "Arcticon Aurora",
       price: "5700",
       msap: "63.2",
@@ -167,25 +167,25 @@ export const carDetails = [
   ],
   [
     {
-      src: baseUrl + "/car-asset/nexaro-electra.png",
+      src: baseUrl + "/assets/show-4.jpg",
       model: "Nexaro electra",
       price: "35700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/velocevo.png",
+      src: baseUrl + "/assets/show-1.jpg",
       model: "Velocevo Stellaris",
       price: "135700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/nexaro.png",
+      src: baseUrl + "/assets/show-2.jpg",
       model: "Nexaro CG6",
       price: "82700",
       msap: "43.2",
     },
     {
-      src: baseUrl + "/car-asset/Arcticon.png",
+      src: baseUrl + "/assets/show-3.jpg",
       model: "Arcticon Aurora",
       price: "5700",
       msap: "63.2",
@@ -193,25 +193,25 @@ export const carDetails = [
   ],
   [
     {
-      src: baseUrl + "/car-asset/nexaro-electra.png",
+      src: baseUrl + "/assets/show-3.jpg",
       model: "Nexaro electra",
       price: "35700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/Arcticon.png",
+      src: baseUrl + "/assets/show-4.jpg",
       model: "Velocevo Stellaris",
       price: "135700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/velocevo.png",
+      src: baseUrl + "/assets/show-1.jpg",
       model: "Nexaro CG6",
       price: "82700",
       msap: "43.2",
     },
     {
-      src: baseUrl + "/car-asset/nexaro.png",
+      src: baseUrl + "/assets/show-2.jpg",
       model: "Arcticon Aurora",
       price: "5700",
       msap: "63.2",
@@ -219,25 +219,25 @@ export const carDetails = [
   ],
   [
     {
-      src: baseUrl + "/car-asset/Arcticon.png",
+      src: baseUrl + "/assets/show-2.jpg",
       model: "Nexaro electra",
       price: "35700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/velocevo.png",
+      src: baseUrl + "/assets/show-3.jpg",
       model: "Velocevo Stellaris",
       price: "135700",
       msap: "23.2",
     },
     {
-      src: baseUrl + "/car-asset/nexaro-electra.png",
+      src: baseUrl + "/assets/show-4.jpg",
       model: "Nexaro CG6",
       price: "82700",
       msap: "43.2",
     },
     {
-      src: baseUrl + "/car-asset/nexaro.png",
+      src: baseUrl + "/assets/show-1.jpg",
       model: "Arcticon Aurora",
       price: "5700",
       msap: "63.2",
@@ -254,27 +254,27 @@ export const testimonials: TestimonialsType[] = [
   {
     name: "John Doe",
     text: "I had a great experience buying my car from this shop. The staff was friendly and knowledgeable, and they helped me find the perfect car for my needs. I would highly recommend them to anyone looking to buy a car.",
-    img: baseUrl + "/car-asset/Ellipse 1.png",
+    img: baseUrl + "/assets/person-1.svg",
   },
   {
     name: "Jane Smith",
     text: "I was impressed with the selection of cars available at this shop. They had a wide range of makes and models to choose from, and the prices were very competitive. I will definitely be back for my next car purchase.",
-    img: baseUrl + "/car-asset/Ellipse 2.png",
+    img: baseUrl + "/assets/person-2.svg",
   },
   {
     name: "Alice Johnson",
     text: "The buying process was smooth and hassle-free. I appreciated the transparency in pricing and the helpfulness of the staff. Highly recommend!",
-    img: baseUrl + "/car-asset/Ellipse 3.png",
+    img: baseUrl + "/assets/person-3.svg",
   },
   {
     name: "Bob Brown",
     text: "I found the perfect car for my family here. The staff went above and beyond to ensure I was satisfied with my purchase.",
-    img: baseUrl + "/car-asset/Ellipse 1.png",
+    img: baseUrl + "/assets/person-1.svg",
   },
   {
     name: "Bob Brown",
     text: "I found the perfect car for my family here. The staff went above and beyond to ensure I was satisfied with my purchase.",
-    img: baseUrl + "/car-asset/Ellipse 1.png",
+    img: baseUrl + "/assets/person-2.svg",
   },
 ];
 
@@ -290,7 +290,7 @@ export interface Blogpost {
 export const blogPosts: Blogpost[] = [
   {
     title: "The Benefits of Buying a Used Car",
-    img: baseUrl + "/car-asset/blog-one.png",
+    img: baseUrl + "/assets/blog-1.jpg",
     type: "News",
     date: "March 1, 2023",
     excerpt:
@@ -299,7 +299,7 @@ export const blogPosts: Blogpost[] = [
   },
   {
     title: "Top 10 Tips for First-Time Car Buyers",
-    img: baseUrl + "/car-asset/blog-two.png",
+    img: baseUrl + "/assets/blog-2.jpg",
     type: "Automobile",
     date: "February 15, 2023",
     excerpt:
@@ -308,7 +308,7 @@ export const blogPosts: Blogpost[] = [
   },
   {
     title: "How to Maintain Your Car for Longevity",
-    img: baseUrl + "/car-asset/blog-three.png",
+    img: baseUrl + "/assets/blog-3.jpg",
     type: "Latest",
     date: "January 20, 2023",
     excerpt:
@@ -320,6 +320,6 @@ export const blogPosts: Blogpost[] = [
 // assets
 
 export const logo: string = baseUrl + "/car-asset/logo.png";
-export const carImage: string = baseUrl + "/car-asset/right-featured.png";
-export const leftFeaturedCar: string = baseUrl + "/car-asset/left-featured.png";
-export const rightFeaturedCar: string = baseUrl + "/car-asset/yellow-car.png";
+export const carImage: string = baseUrl + "/assets/car-1.jpg";
+export const leftFeaturedCar: string = baseUrl + "/assets/car-2.jpg";
+export const rightFeaturedCar: string = baseUrl + "/assets/car-3.jpg";

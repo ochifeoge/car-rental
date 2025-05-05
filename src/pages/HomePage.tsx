@@ -15,7 +15,7 @@ const HomePage = () => {
       <NewsLetter
         heading="  Sign Up and never miss a deal again"
         buttonText="Subscribe"
-        bg="/car-asset/yellowCarBg.png"
+        bg="/assets/newsletter-1.jpg"
         activeInput={true}
       />
       <LatestVehicles />

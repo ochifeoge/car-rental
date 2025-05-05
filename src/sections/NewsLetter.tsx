@@ -33,7 +33,7 @@ const NewsLetter = ({
           end: "bottom center",
           scrub: true,
         },
-      }).to(contentRef.current?.children, {
+      }).to(Array.from(contentRef.current?.children || []), {
         y: -50,
         stagger: 0.3,
         ease: "power1.inOut",

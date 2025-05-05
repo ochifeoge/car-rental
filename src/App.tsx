@@ -42,12 +42,12 @@ function App() {
     <div
       ref={loadingContainerRef}
       className="h-screen! relative bg-primary flex items-center justify-center flex-col">
-      <h1 className="absolute text-5xl bottom-2 left-0 z-20 italic">
+      <h1 className="absolute text-5xl bottom-2 -translate-y-1/2 left-0 z-20 italic">
         Loading...
       </h1>
       <div
         ref={clipRef}
-        className=" max-h-64 w-[95%] max-w-xl  overflow-y-hidden relative"
+        className=" max-h-64 w-[95%] max-w-xl shadow-xl  overflow-y-hidden relative"
         style={{
           clipPath: "polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%)",
           willChange: "clip-path",

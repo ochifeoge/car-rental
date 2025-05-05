@@ -16,7 +16,7 @@ const HeroSection = () => {
   const headerRef = useRef<HTMLDivElement>(null);
   const navLinksRef = useRef<HTMLUListElement>(null);
   const heroContentRef = useRef<HTMLDivElement>(null);
-  const formRef = useRef<HTMLDivElement>(null);
+  const formRef = useRef<HTMLFormElement>(null);
 
   useGSAP(
     () => {
@@ -45,7 +45,7 @@ const HeroSection = () => {
           ease: "power2.out",
         })
         .from(
-          navLinksRef.current?.children,
+          Array.from(navLinksRef.current?.children || []),
           {
             opacity: 0,
             y: -20,

@@ -75,7 +75,7 @@ const ShowCars = () => {
         },
       });
 
-      tl.from(textRef.current?.children, {
+      tl.from(Array.from(textRef.current?.children || []), {
         y: 50,
         opacity: 0,
         duration: 1,
@@ -92,7 +92,7 @@ const ShowCars = () => {
           opacity: 0,
           ease: "power1.inOut",
         })
-        .from(featureRefDiv.current?.children, {
+        .from(Array.from(featureRefDiv.current?.children || []), {
           y: 50,
           opacity: 0,
           duration: 1,

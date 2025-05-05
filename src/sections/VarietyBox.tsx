@@ -8,9 +8,9 @@ gsap.registerPlugin(ScrollTrigger);
 
 const VarietyBox = () => {
   const containerRef = useRef<HTMLDivElement>(null);
-  const lineRef = useRef([]);
-  const boxRef = useRef([]);
-  const numberRef = useRef([]);
+  const boxRef = useRef<(HTMLDivElement | null)[]>([]);
+  const lineRef = useRef<(HTMLDivElement | null)[]>([]);
+  const numberRef = useRef<(HTMLDivElement | null)[]>([]);
 
   boxRef.current = trust.map((_, i) => boxRef.current[i] || null);
   lineRef.current = trust.map((_, i) => lineRef.current[i] || null);
@@ -79,14 +79,23 @@ const VarietyBox = () => {
             className="flex sm:basis-[48%] lg:basis-[31%]  flex-col gap-4 text-secondary"
             key={index}>
             <div className="flex items-center gap-4">
-              <p ref={(el) => (numberRef.current[index] = el)}>0{index + 1}</p>
+              <p
+                ref={(el) => {
+                  numberRef.current[index] = el;
+                }}>
+                0{index + 1}
+              </p>
               <div
-                ref={(el) => (lineRef.current[index] = el)}
+                ref={(el) => {
+                  lineRef.current[index] = el;
+                }}
                 className="border-t w-0 "></div>
             </div>
 
             <div
-              ref={(el) => (boxRef.current[index] = el)}
+              ref={(el) => {
+                boxRef.current[index] = el;
+              }}
               className="border flex flex-col items-center  h-54 justify-center text-center gap-4 p-4">
               <h3 className="font-bold text-3xl">{heading}</h3>
               <p>{text}</p>
